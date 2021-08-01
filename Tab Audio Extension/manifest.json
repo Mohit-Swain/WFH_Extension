@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 3,
+  "name": "Tab Audio Controller",
+  "version": "0.0.1",
+  "description": "A Extension to controll the volume of each tab",
+  "action": {
+    "default_title": "Tab Audio Controller",   
+    "default_popup": "popup.html",
+    "default_icon" :  {
+      "16" : "icons/icon18white.png",
+      "48" : "icons/icon48white.png",
+      "128": "icons/icon96white.png"
+    }
+  },
+  "icons":{
+    "16" : "icons/icon18black.png",
+    "48" : "icons/icon48black.png",
+    "128": "icons/icon96black.png"
+  }
+}

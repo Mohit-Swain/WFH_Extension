@@ -1,0 +1,84 @@
+body {
+  min-height: 250px;
+  max-height: 400px;
+  width: 300px;
+  overflow: auto;
+  border: 2px black solid;
+  font-family: "Lucida  Console", "Courier New", monospace;
+}
+
+#popup {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#banner {
+  background-color: #eee;
+  min-height: 10vh;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border-radius: 0.5em;
+}
+
+#tab_info {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 3px;
+}
+#tab_name {
+  margin: 3px 0px;
+}
+#controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.range-slider {
+  min-height: 50px;
+  margin: 2px;
+  width: 100%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.input-range {
+  width: 200px;
+}
+hr {
+  color: black;
+}
+
+.footer-heart {
+  text-align: center;
+  font-family: open sans, sans-serif;
+}
+
+.footer-heart a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+}
+
+.footer-heart a:hover {
+  color: #2196f3;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+}
+
+.emoji {
+  vertical-align: middle;
+}
