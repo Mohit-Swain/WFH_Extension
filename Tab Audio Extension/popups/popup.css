@@ -26,14 +26,23 @@ body {
 }
 
 #tab_info {
-  font-size: 0.9em;
+  font-size: small;
   line-height: 1.2em;
   text-align: center;
   margin-top: 3px;
 }
 #tab_name {
   margin: 3px 0px;
+  font-size: medium;
 }
+.no_text_overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
 #controller {
   display: flex;
   flex-direction: column;
@@ -81,4 +90,22 @@ hr {
 
 .emoji {
   vertical-align: middle;
+}
+
+.volume-icon {
+  float: left;
+  margin: auto;
+}
+
+#range-value {
+  margin: auto;
+  text-align: center;
+  min-width: 23px;
+  font-weight: 550;
+  font-size: 1.1em;
+}
+
+#icon-img {
+}
+footer {
 }
