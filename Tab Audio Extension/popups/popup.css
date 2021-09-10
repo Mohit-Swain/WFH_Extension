@@ -105,7 +105,6 @@ hr {
   font-size: 1.1em;
 }
 
-#icon-img {
-}
-footer {
+.footer-heart > a {
+  font-weight: bold;
 }
